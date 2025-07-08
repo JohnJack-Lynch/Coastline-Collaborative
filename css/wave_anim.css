@@ -1,20 +1,14 @@
-html,
-body {
-  height: 100%;
-}
+/*wave effect made by Daag on CodePen*/
 
-
-
-body {
-
-  overflow: hidden;
+body { 
+  overflow-x: hidden;
 }
 
 .ocean {
   z-index: -1;
   width: 100%;
   position: absolute;
-  bottom: 60%;
+  bottom: 65%;
   left: 0;
   background: #015871;
 }
@@ -22,7 +16,7 @@ body {
 .wave {
   background: url(https://cdn.kcak11.com/codepen_assets/wave_animation/wave.svg) repeat-x;
   position: absolute;
-  top: -198px;
+  top: -180px;
   width: 6400px;
   height: 198px;
   animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;

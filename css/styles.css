@@ -10,7 +10,7 @@ body {
 
 header {
 	padding-top: 5px;
-	background-color: rgba(255, 250, 240, 0.75);
+	background-color: rgba(255, 250, 240, 0.85);
 }
 
 nav {
@@ -31,6 +31,11 @@ ul {
 	text-align: center;
 	margin: auto;
 	padding: 20px;
+	transition: padding 0.2s ease-in-out;
+}
+
+ul:hover {
+	padding: 30px;
 }
 
 li {
@@ -44,10 +49,12 @@ a {
 	color: black;
 	text-decoration: none;
 	transition: color 0.2s ease-in-out;
+	transition: font-size 0.2s ease-in-out;
 }
 
 a:hover {
 	color: #76A8CB;
+	font-size: 22px;
 }
 
 footer {
