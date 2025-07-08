@@ -7,15 +7,71 @@
 	<link rel="icon" type="image/x-icon" href="img/branding/Logo Final Icon.png">
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/wave_anim.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 	</style>
 </head>
 <body>
 	<header>
-		<img src="img/branding/Logo Final Full.png" id="logo">
-		<h1>welcome</h1>
+		<div class="ocean">
+			<div class="wave"></div>
+			<div class="wave"></div>
+		</div>
+
+		<!-- wave effect made by Daag on CodePen -->
+		<style>
+			.ocean {
+				z-index: -1;
+				width: 100%;
+				position: absolute;
+				bottom: 60%;
+				left: 0;
+				background: #015871;
+			}
+
+			.wave {
+				background: url(https://cdn.kcak11.com/codepen_assets/wave_animation/wave.svg) repeat-x;
+				position: absolute;
+				top: -198px;
+				width: 6400px;
+				height: 198px;
+				animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+				transform: translate3d(0, 0, 0);
+			}
+
+			.wave:nth-of-type(2) {
+				top: -175px;
+				animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+				opacity: 1;
+			}
+
+			@keyframes wave {
+				0% {
+					margin-left: 0;
+			  	}
+			  	100% {
+			    	margin-left: -1600px;
+			  	}
+			}
+
+			@keyframes swell {
+			  	0%,
+				100% {
+			    	transform: translate3d(0, -25px, 0);
+			  	}
+			  	50% {
+			    	transform: translate3d(0, 5px, 0);
+			  	}
+			}
+			.endWave{
+				display:none;
+			}
+		</style>
+
+		<div class="welcome">
+			<img src="img/branding/Logo Final Full.png" id="logo">
+			<h1>welcome</h1>
+		</div>
 	</header>
 	
 	<nav>
@@ -26,8 +82,8 @@
 		</ul>
 	</nav>
 
-	<div class="wave"></div>
 	
+
 	<footer>
 		<p>&copy; 2025 Coastline Collaborative, The S/L/A/M Collaborative. All rights reserved.</p>
 	</footer>
