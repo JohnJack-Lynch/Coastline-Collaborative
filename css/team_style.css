@@ -1,5 +1,5 @@
 h2 {
-	font-size: 35px;
+	font-size: 40px;
 	font-style: italic;
 	color: #1A6DA8;
 	margin: 0;
@@ -9,12 +9,12 @@ h2 {
 }
 
 h3 {
-	font-size: 15px;
+	font-size: 20px;
 	font-style: italic;
 	color: #1A6DA8;
 	margin: 0;
 	padding: 0;
-	font-weight: 400;
+	font-weight: 500;
 
 	padding-top: 0.5%;
 	padding-bottom: 1%;
@@ -49,7 +49,7 @@ h3 {
 }
 
 .bio {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: left;
 	margin-top: 0.5%;
 	margin-right: 10%;
