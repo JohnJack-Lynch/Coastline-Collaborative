@@ -8,6 +8,7 @@ h2 {
 	padding-top: 1%;
 }
 
+
 h3 {
 	font-size: 20px;
 	font-style: italic;
@@ -25,6 +26,7 @@ h3 {
 	padding: 15px;
 	background-color: rgba(253,250,242,255);
 	border-radius: 15px;
+	filter: drop-shadow(0px 6px 0px #eecbb4);
 }
 
 .info {
@@ -65,6 +67,7 @@ h3 {
 	padding: 0;
 	padding-right: 5px;
 	border-radius: 15px;
+	filter: drop-shadow(0px 6px 0px #eecbb4);
 }
 
 #logo {
