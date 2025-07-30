@@ -22,7 +22,9 @@ h3 {
 
 .member {
 	margin: 3% 20% 3% 20%;
-	
+	padding: 15px;
+	background-color: rgba(253,250,242,255);
+	border-radius: 15px;
 }
 
 .info {
@@ -52,7 +54,8 @@ h3 {
 	font-size: 16px;
 	text-align: left;
 	margin-top: 0.5%;
-	margin-right: 10%;
+	padding-right: 5%;
+	padding-left: 2%;
 }
 
 .headshot {
@@ -60,6 +63,8 @@ h3 {
 	display: inline;
 	margin: 0;
 	padding: 0;
+	padding-right: 5px;
+	border-radius: 15px;
 }
 
 #logo {
@@ -68,4 +73,20 @@ h3 {
 	height: auto;
 	margin: 30px auto 20px auto;
 	display: block;
+}
+
+.proj-list h4 {
+	font-size: 24px;
+	font-weight: 450;
+}
+
+.proj-list ul {
+	list-style: disc;
+	padding-left: 2%;
+}
+
+.proj-list li {
+	display: list-item;
+	color: black;
+	font-weight: 250;
 }
