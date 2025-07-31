@@ -23,6 +23,16 @@ h2 {
 	filter: drop-shadow(0px 6px 0px #eecbb4);
 }
 
+.inline-block {
+	display: inline-block;
+	width: auto;
+	padding: 15px;
+	background-color: rgba(253,250,242,255);
+	border-radius: 15px;
+	margin-bottom: 3%;
+	filter: drop-shadow(0px 6px 0px #eecbb4);
+}
+
 #miro-block iframe {
 	display: block;
 	margin-left: auto;
@@ -49,4 +59,8 @@ h2 {
 	width: 75%;
 	border-radius: 20px;
 	filter: drop-shadow(0px 6px 0px #eecbb4);
+}
+
+.location {
+	color: #1A6DA8;
 }
