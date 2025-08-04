@@ -3,6 +3,11 @@ h2 {
 	margin-bottom: 1.5%;
 }
 
+li {
+	list-style-type: none;
+
+}
+
 #logo {
 	width: 35%;
 	max_width: 300px;
@@ -23,14 +28,34 @@ h2 {
 	filter: drop-shadow(0px 6px 0px #eecbb4);
 }
 
+#ny-la-overview {
+	display: inline-grid;
+	align-content: center;
+	grid-template-columns: auto auto auto auto;
+	margin: 0;
+	gap: 2%;
+}
+
 .inline-block {
-	display: inline-block;
-	width: auto;
 	padding: 15px;
 	background-color: rgba(253,250,242,255);
 	border-radius: 15px;
 	margin-bottom: 3%;
 	filter: drop-shadow(0px 6px 0px #eecbb4);
+}
+
+#right {
+	text-align: right;
+}
+
+#ny-site-plan {
+	width: 100%;
+	display: block;
+}
+
+#la-site-plan {
+	width: 100%;
+	display: block;
 }
 
 #miro-block iframe {
@@ -63,4 +88,14 @@ h2 {
 
 .location {
 	color: #1A6DA8;
+}
+
+.features {
+	font-style: italic;
+	padding-bottom: 2%;
+}
+
+.features li {
+	font-size: 14px;
+	font-weight: 300;
 }
