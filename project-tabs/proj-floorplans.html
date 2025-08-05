@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coastline - Axis Project</title>
+	<link rel="icon" type="image/x-icon" href="../img/branding/Logo Final Icon.png">
+
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/proj_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/carousel-style.css">
+	<link rel="stylesheet" type="text/css" href="../css/wave_anim.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+	</style>
+</head>
+<body>
+	<header>
+		<div class="wave-container">
+			<div class="ocean">
+				<div class="wave"></div>
+				<div class="wave"></div>
+			</div>
+		</div>
+
+		<img src="../img/branding/Logo Final Full.png" id="logo">
+		<h1>axis project</h1>
+	</header>
+
+	<nav>
+		<ul class="header-nav">
+			<li><a href="../index.html">home</a></li>
+			<li>axis project</li>
+			<li><a href="../team.html">the team</a></li>
+		</ul>
+		<nav>
+			<ul class="subheader-nav">
+				<li><a href="../project.html">overview</a></li>
+				<li>floor plans</li>
+				<li><a href="proj-ideation.html">init. planning</a></li>
+			</ul>
+		</nav>
+	</nav>
+
+	<!-- Things to include here:
+	- Floor plans
+	- Structural model -->
+	
+	<div class="body-container" id="floorplans">
+		<div class="block-container">
+			<h2>Floor Plans</h2>
+			<img class="floorplan-img" src="../img/proj/floorplan1.jpg">
+			<h3>Floor 1</h3>
+			<img class="floorplan-img" src="../img/proj/floorplan2.jpg">
+			<h3>Floor 2</h3>
+			<img class="floorplan-img" src="../img/proj/floorplan3.jpg">
+			<h3>Floor 3</h3>
+		</div>
+
+
+		<div class="block-container">
+			<h2>Structural Model</h2>
+
+			<div class="carousel-container">
+				<div class="slide fade">
+					<img src="../img/proj/renders/s-model1.jpg" style="width: 100%">
+				</div>
+				<div class="slide fade">
+					<img src="../img/proj/renders/s-model2.jpg" style="width: 100%">
+				</div>
+				<div class="slide fade">
+					<img src="../img/proj/renders/s-model3.jpg" style="width: 100%">
+				</div>
+				<div class="slide fade">
+					<img src="../img/proj/renders/s-model4.jpg" style="width: 100%">
+				</div>
+				<div class="slide fade">
+					<img src="../img/proj/renders/s-model5.jpg" style="width: 100%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<script src="../js/carousel-func.js"></script>
+			</div>	
+		</div>
+	</div>
+	
+
+	<footer>
+		<p>&copy; 2025 Coastline Collaborative, The S/L/A/M Collaborative. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>
