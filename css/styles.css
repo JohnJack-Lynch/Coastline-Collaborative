@@ -108,3 +108,16 @@ footer {
 	display: block;
 }
 
+#powerpoint {
+	display: block;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1%;
+	border-radius: 20px;
+	filter: drop-shadow(0px 6px 0px #eecbb4);
+}
+
+#home-carousel {
+	filter: drop-shadow(-30px 5px 50px #728ecf);
+}
